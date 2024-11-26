@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubicación - Reparación de Computadoras</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        /* Estilo para el contenedor de ubicaciones */
+        .ubicaciones-container {
+            display: flex;
+            justify-content: space-around; /* Espacio entre las ubicaciones */
+            margin: 20px 0; /* Margen superior e inferior */
+        }
+
+        /* Estilo para cada ubicación */
+        .ubicacion {
+            width: 45%; /* Ajusta el ancho según sea necesario */
+            text-align: center; /* Centra el texto */
+        }
+
+        /* Estilo para el iframe */
+        iframe {
+            width: 100%; /* Asegura que el iframe ocupe todo el ancho del contenedor */
+            height: 300px; /* Altura del iframe */
+            border: 0; /* Sin borde */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo Reparación Computadoras">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="ubicacion.html">Ubicación</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="login.html">Iniciar sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Ubicación</h1>
+        <div class="ubicaciones-container">
+            <div class="ubicacion">
+                <h2>Ubicación </h2>
+                <p>1154 C. Arapata, La Paz, Bolivia.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!4v1732541576037!6m8!1m7!1sli-cKTW9sasVOA98pPE0-g!2m2!1d-16.47218238986369!2d-68.11879429635844!3f52.87890735751939!4f-3.12232946149922!5f0.7820865974627469" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="ubicacion">
+                <h2>Ubicación </h2>
+                <p>154 C. Arapata, La Paz, Bolivia.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d956.5163594692472!2d-68.11872165959812!3d-16.472223880335367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sbo!4v1732584955514!5m2!1ses-419!2sbo" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Reparación de Computadoras. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

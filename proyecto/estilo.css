@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4c77af; /* Cambié el color a un verde más atractivo */
+    color: white;
+    padding: 15px 0; /* Aumenté el padding para más espacio */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Agregué una sombra */
+}
+
+header .logo img {
+    max-width: 150px;
+    border-radius: 5px; /* Esquinas redondeadas para la imagen del logo */
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px; /* Aumenté el margen entre los elementos */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; /* Transición para un efecto suave */
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Cambié el color al pasar el ratón */
+}
+
+footer {
+    background-color: #4c63af; /* Color del pie de página igual que el encabezado */
+    color: white;
+    text-align: center;
+    padding: 15px 0; /* Aumenté el padding */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Sombra en la parte superior del pie de página */
+}
+
+main {
+    padding: 20px;
+    margin-bottom: 60px; /* Para evitar que el contenido se superponga con el pie de página */
+    background-color: white; /* Fondo blanco para el contenido principal */
+    border-radius: 8px; /* Esquinas redondeadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Aumenté el espacio entre los elementos del formulario */
+}
+
+input, textarea, button {
+    padding: 12px; /* Aumenté el padding */
+    font-size: 1rem;
+    border: 1px solid #ccc; /* Borde para los inputs y textarea */
+    border-radius: 5px; /* Esquinas redondeadas */
+}
+
+input:focus, textarea:focus {
+    border-color: #4c6faf; /* Color de borde al enfocar */
+    outline: none; /* Quitar el contorno por defecto */
+}
+
+button {
+    background-color: #4c74af; /* Color del botón */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transición suave para el botón */
+}
+
+button:hover {
+    background-color: #4569a0; /* Color del botón al pasar el ratón */
+}
